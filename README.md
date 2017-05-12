@@ -1,2 +1,0 @@
-# MySite-jq
-jquery site

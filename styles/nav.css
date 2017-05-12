@@ -1,0 +1,38 @@
+#navigation{
+	width: 784px;
+	height: 18px;
+	margin: 8px auto;
+	padding: 8px;
+	background: #FBA90D;
+	border: 1px solid #b0b0b0;
+}
+#navigation ul li{
+	float: left;
+	margin-right: 30px;
+	position: relative;
+	z-index: 100;
+}
+#navigation ul li a{
+	display: block;
+	padding: 0 8px;
+	background: #EEEEEE;
+	font-weight: 700;
+}
+#navigation ul li ul{
+	display: none;
+	position: absolute;
+	width: 70px;
+	overflow: hidden;
+	background-color: #88c366;
+}
+#navigation ul li:hover ul{
+	background-color: #88c366;
+	position: absolute;
+	width: 70px;
+	display: block;
+}
+#navigation ul li ul li{
+	border-bottom: 1px solid #bbb;
+	text-align: left;
+	width: 100%;
+}
